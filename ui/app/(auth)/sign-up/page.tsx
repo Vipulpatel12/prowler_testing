@@ -9,19 +9,19 @@ const SignUp = ({ searchParams }: { searchParams: SearchParamsProps }) => {
       ? searchParams.invitation_token
       : null;
   const emailId =
-  typeof searchParams?.email === "string"
-    ? searchParams.email
-    : null;
-  
+    typeof searchParams?.email === "string"
+      ? searchParams.email
+      : null;
+
   const user_name =
-  typeof searchParams?.user_name === "string"
-    ? searchParams.user_name
-    : null;
+    typeof searchParams?.user_name === "string"
+      ? searchParams.user_name
+      : null;
 
   const company =
-  typeof searchParams?.company === "string"
-    ? searchParams.company
-    : null;
+    typeof searchParams?.company === "string"
+      ? searchParams.company
+      : null;
 
   return (
     <AuthForm
